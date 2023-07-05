@@ -8,12 +8,12 @@ git clone https://github.com/pink-pig-pig/Vue-Qa-Front.git
 cd Vue-Qa-Front
 
 # 安装依赖
-cnpm install
+npm install
 
 # 运行项目
-cnpm run dev
+npm run dev
 
 # 打包发布
-cnpm run build
+npm run build
 ```
 
