@@ -77,7 +77,7 @@ const getTableData = () => {
 	state.tableData.loading = true;
 	state.tableData.data = [];
 	state.tableData.data.push({
-		deptName: 'localLifeQaFront',
+		deptName: 'Vue-Qa-Front',
 		createTime: new Date().toLocaleString(),
 		status: true,
 		sort: Math.random(),

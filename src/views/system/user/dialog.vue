@@ -153,7 +153,7 @@ const onSubmit = () => {
 // 初始化部门数据
 const getMenuData = () => {
 	state.deptData.push({
-		deptName: 'localLifeQaFront',
+		deptName: 'Vue-Qa-Front',
 		createTime: new Date().toLocaleString(),
 		status: true,
 		sort: Math.random(),

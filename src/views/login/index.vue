@@ -2,16 +2,14 @@
 	<div class="login-container flex">
 		<div class="login-left">
 			<div class="login-left-logo">
-				<img :src="logoMini" />
 				<div class="login-left-logo-text">
 					<span>{{ getThemeConfig.globalViceTitle }}</span>
 					<span class="login-left-logo-text-msg">{{ getThemeConfig.globalViceTitleMsg }}</span>
 				</div>
 			</div>
 			<div class="login-left-img">
-				<img :src="loginMain" />
+				<img src="https://img0.baidu.com/it/u=3547992903,2565563997&fm=253&app=120&size=w931&n=0&f=JPEG&fmt=auto?sec=1688749200&t=8496eade95980cccd9930cd403a90a01" />
 			</div>
-			<img :src="loginBg" class="login-left-waves" />
 		</div>
 		<div class="login-right flex">
 			<div class="login-right-warp flex-margin">
@@ -47,9 +45,7 @@ import { defineAsyncComponent, onMounted, reactive, computed } from 'vue';
 import { storeToRefs } from 'pinia';
 import { useThemeConfig } from '/@/stores/themeConfig';
 import { NextLoading } from '/@/utils/loading';
-import logoMini from '/@/assets/logo-mini.svg';
-import loginMain from '/@/assets/login-main.svg';
-import loginBg from '/@/assets/login-bg.svg';
+
 
 // 引入组件
 const Account = defineAsyncComponent(() => import('/@/views/login/component/account.vue'));
