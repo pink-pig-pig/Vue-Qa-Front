@@ -2,7 +2,7 @@
 
 ```bash
 # 克隆项目
-git clone git@git.corp.kuaishou.com:qa-lbs/merchant-qa-front.git
+git clone https://github.com/pink-pig-pig/Vue-Qa-Front.git
 
 # 进入项目
 cd merchant-qa-front
