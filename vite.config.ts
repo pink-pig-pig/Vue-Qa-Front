@@ -4,7 +4,6 @@ import { defineConfig, loadEnv, ConfigEnv } from 'vite';
 import vueSetupExtend from 'vite-plugin-vue-setup-extend-plus';
 import viteCompression from 'vite-plugin-compression';
 import { buildConfig } from './src/utils/build';
-
 const pathResolve = (dir: string) => {
 	return resolve(__dirname, '.', dir);
 };
@@ -24,7 +23,7 @@ const viteConfig = defineConfig((mode: ConfigEnv) => {
 		optimizeDeps: { exclude: ['vue-demi'] },
 		server: {
 			host: '0.0.0.0',
-			port: env.VITE_PORT as unknown as number,
+			port: env.VITE_PORT as unknown as number ,
 			open: JSON.parse(env.VITE_OPEN),
 			hmr: true,
 			proxy: {

@@ -1,7 +1,7 @@
 <template>
 	<div class="layout-footer pb15">
 		<div class="layout-footer-warp">
-			<div>Vue-Qa-Front，Made by lyt with ❤️</div>
+			<div>Vue-Qa-Front，Made  with ❤️</div>
 			<div class="mt5">深圳市 xxx 公司版权所有</div>
 		</div>
 	</div>

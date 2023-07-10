@@ -78,9 +78,9 @@ onBeforeMount(() => {
 // 页面加载时
 onMounted(() => {
 	getIframeListRoutes();
-	// https://gitee.com/QA/Vue-Qa-Front/issues/I58U75
-	// https://gitee.com/QA/Vue-Qa-Front/issues/I59RXK
-	// https://gitee.com/QA/Vue-Qa-Front/pulls/40
+	// https://github.com/pink-pig-pig/Vue-Qa-Front/issues/I58U75
+	// https://github.com/pink-pig-pig/Vue-Qa-Front/issues/I59RXK
+	// https://github.com/pink-pig-pig/Vue-Qa-Front/pulls/40
 	nextTick(() => {
 		setTimeout(() => {
 			if (themeConfig.value.isCacheTagsView) {

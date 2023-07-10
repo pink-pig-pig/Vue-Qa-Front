@@ -24,7 +24,7 @@
 import { Session } from '/@/utils/storage';
 
 const onSetAuth = () => {
-	// https://gitee.com/QA/Vue-Qa-Front/issues/I5C3JS
+	// https://github.com/pink-pig-pig/Vue-Qa-Front/issues/I5C3JS
 	// 清除缓存/token等
 	Session.clear();
 	// 使用 reload 时，不需要调用 resetRoute() 重置路由

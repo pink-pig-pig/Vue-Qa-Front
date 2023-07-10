@@ -9,7 +9,7 @@ export default {
 		two4: '友情連結',
 	},
 	account: {
-		accountPlaceholder1: '用戶名admin或不輸均為common',
+		accountPlaceholder1: '不输入游客登录',
 		accountPlaceholder2: '密碼：123456',
 		accountPlaceholder3: '請輸入驗證碼',
 		accountBtnText: '登入',

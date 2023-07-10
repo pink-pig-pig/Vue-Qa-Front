@@ -59,6 +59,7 @@
 <script setup lang="ts" name="systemRole">
 import { defineAsyncComponent, reactive, onMounted, ref } from 'vue';
 import { ElMessageBox, ElMessage } from 'element-plus';
+import request from "/@/utils/request";
 
 // 引入组件
 const RoleDialog = defineAsyncComponent(() => import('/@/views/system/role/dialog.vue'));
@@ -81,6 +82,9 @@ const state = reactive<SysRoleState>({
 const getTableData = () => {
 	state.tableData.loading = true;
 	const data = [];
+	const res =  request({
+
+	})
 	for (let i = 0; i < 20; i++) {
 		data.push({
 			roleName: i === 0 ? '超级管理员' : '普通用户',

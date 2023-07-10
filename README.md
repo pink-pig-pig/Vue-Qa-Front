@@ -2,10 +2,10 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/pink-pig-pig/Vue-Qa-Front.git
+git clone git@git.corp.kuaishou.com:qa-lbs/merchant-qa-front.git
 
 # 进入项目
-cd Vue-Qa-Front
+cd merchant-qa-front
 
 # 安装依赖
 npm install

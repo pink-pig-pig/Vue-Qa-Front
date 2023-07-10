@@ -76,7 +76,7 @@ onBeforeUnmount(() => {
 	editor.destroy();
 });
 // 监听是否禁用改变
-// https://gitee.com/QA/Vue-Qa-Front/issues/I4LM7I
+// https://github.com/pink-pig-pig/Vue-Qa-Front/issues/I4LM7I
 watch(
 	() => props.disable,
 	(bool) => {

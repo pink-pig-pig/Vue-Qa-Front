@@ -3,8 +3,8 @@
 		<div class="login-left">
 			<div class="login-left-logo">
 				<div class="login-left-logo-text">
-					<span>{{ getThemeConfig.globalViceTitle }}</span>
-					<span class="login-left-logo-text-msg">{{ getThemeConfig.globalViceTitleMsg }}</span>
+<!--					<span>{{ getThemeConfig.globalViceTitle }}</span>-->
+<!--					<span class="login-left-logo-text-msg">{{ getThemeConfig.globalViceTitleMsg }}</span>-->
 				</div>
 			</div>
 			<div class="login-left-img">

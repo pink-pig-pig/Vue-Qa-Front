@@ -1,33 +1,33 @@
 <template>
 	<div class="layout-navbars-breadcrumb-user pr15" :style="{ flex: layoutUserFlexNum }">
-		<el-dropdown :show-timeout="70" :hide-timeout="50" trigger="click" @command="onComponentSizeChange">
-			<div class="layout-navbars-breadcrumb-user-icon">
-				<i class="iconfont icon-ziti" :title="$t('message.user.title0')"></i>
-			</div>
-			<template #dropdown>
-				<el-dropdown-menu>
-					<el-dropdown-item command="large" :disabled="state.disabledSize === 'large'">{{ $t('message.user.dropdownLarge') }}</el-dropdown-item>
-					<el-dropdown-item command="default" :disabled="state.disabledSize === 'default'">{{ $t('message.user.dropdownDefault') }}</el-dropdown-item>
-					<el-dropdown-item command="small" :disabled="state.disabledSize === 'small'">{{ $t('message.user.dropdownSmall') }}</el-dropdown-item>
-				</el-dropdown-menu>
-			</template>
-		</el-dropdown>
-		<el-dropdown :show-timeout="70" :hide-timeout="50" trigger="click" @command="onLanguageChange">
-			<div class="layout-navbars-breadcrumb-user-icon">
-				<i
-					class="iconfont"
-					:class="state.disabledI18n === 'en' ? 'icon-fuhao-yingwen' : 'icon-fuhao-zhongwen'"
-					:title="$t('message.user.title1')"
-				></i>
-			</div>
-			<template #dropdown>
-				<el-dropdown-menu>
-					<el-dropdown-item command="zh-cn" :disabled="state.disabledI18n === 'zh-cn'">简体中文</el-dropdown-item>
-					<el-dropdown-item command="en" :disabled="state.disabledI18n === 'en'">English</el-dropdown-item>
-					<el-dropdown-item command="zh-tw" :disabled="state.disabledI18n === 'zh-tw'">繁體中文</el-dropdown-item>
-				</el-dropdown-menu>
-			</template>
-		</el-dropdown>
+<!--		<el-dropdown :show-timeout="70" :hide-timeout="50" trigger="click" @command="onComponentSizeChange">-->
+<!--			<div class="layout-navbars-breadcrumb-user-icon">-->
+<!--				<i class="iconfont icon-ziti" :title="$t('message.user.title0')"></i>-->
+<!--			</div>-->
+<!--			<template #dropdown>-->
+<!--				<el-dropdown-menu>-->
+<!--					<el-dropdown-item command="large" :disabled="state.disabledSize === 'large'">{{ $t('message.user.dropdownLarge') }}</el-dropdown-item>-->
+<!--					<el-dropdown-item command="default" :disabled="state.disabledSize === 'default'">{{ $t('message.user.dropdownDefault') }}</el-dropdown-item>-->
+<!--					<el-dropdown-item command="small" :disabled="state.disabledSize === 'small'">{{ $t('message.user.dropdownSmall') }}</el-dropdown-item>-->
+<!--				</el-dropdown-menu>-->
+<!--			</template>-->
+<!--		</el-dropdown>-->
+<!--		<el-dropdown :show-timeout="70" :hide-timeout="50" trigger="click" @command="onLanguageChange">-->
+<!--			<div class="layout-navbars-breadcrumb-user-icon">-->
+<!--				<i-->
+<!--					class="iconfont"-->
+<!--					:class="state.disabledI18n === 'en' ? 'icon-fuhao-yingwen' : 'icon-fuhao-zhongwen'"-->
+<!--					:title="$t('message.user.title1')"-->
+<!--				></i>-->
+<!--			</div>-->
+<!--			<template #dropdown>-->
+<!--				<el-dropdown-menu>-->
+<!--					<el-dropdown-item command="zh-cn" :disabled="state.disabledI18n === 'zh-cn'">简体中文</el-dropdown-item>-->
+<!--					<el-dropdown-item command="en" :disabled="state.disabledI18n === 'en'">English</el-dropdown-item>-->
+<!--					<el-dropdown-item command="zh-tw" :disabled="state.disabledI18n === 'zh-tw'">繁體中文</el-dropdown-item>-->
+<!--				</el-dropdown-menu>-->
+<!--			</template>-->
+<!--		</el-dropdown>-->
 		<div class="layout-navbars-breadcrumb-user-icon" @click="onSearchClick">
 			<el-icon :title="$t('message.user.title2')">
 				<ele-Search />

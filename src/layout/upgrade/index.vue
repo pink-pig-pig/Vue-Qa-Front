@@ -17,7 +17,7 @@
 			<div class="upgrade-content">
 				{{ getThemeConfig.globalTitle }} {{ $t('message.upgrade.msg') }}
 				<div class="mt5">
-					<el-link type="primary" class="font12" href="https://gitee.com/QA/Vue-Qa-Front/blob/master/CHANGELOG.md" target="_black">
+					<el-link type="primary" class="font12" href="https://github.com/pink-pig-pig/Vue-Qa-Front/blob/master/CHANGELOG.md" target="_black">
 						CHANGELOG.md
 					</el-link>
 				</div>

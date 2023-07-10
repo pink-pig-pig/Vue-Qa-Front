@@ -27,7 +27,7 @@ export const useUserInfo = defineStore('userInfo', {
 			}
 		},
 		// 模拟接口数据
-		// https://gitee.com/QA/Vue-Qa-Front/issues/I5F1HP
+		// https://github.com/pink-pig-pig/Vue-Qa-Front/issues/I5F1HP
 		async getApiUserInfo() {
 			return new Promise((resolve) => {
 				setTimeout(() => {
